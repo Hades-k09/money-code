@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ryan Koome | Couture Portfolio</title>
+
+<!-- Minimal but powerful CSS to support captivating experience -->
+<style>
+body{
+  margin:0;
+  font-family:Arial, Helvetica, sans-serif;
+  background:#fff;
+  color:#000;
+  scroll-behavior:smooth; /* smooth navigation added */
+}
+
+nav{
+  display:flex;
+  justify-content:space-between;
+  padding:20px;
+  background:#000;
+  color:#fff;
+}
+
+nav a{
+  color:white;
+  margin:0 10px;
+  text-decoration:none;
+}
+
+.hero{
+  text-align:center;
+  padding:40px 20px;
+}
+
+.hero-image{
+  width:100%;
+  max-width:760px;
+  border-radius:14px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.25);
+  border:5px solid #000;
+  transition:0.4s;
+}
+
+.hero-image:hover{
+  transform:scale(1.02);
+}
+
+.btn{
+  display:inline-block;
+  padding:12px 26px;
+  background:#000;
+  color:#fff;
+  margin-top:10px;
+  text-decoration:none;
+  border-radius:30px;
+}
+
+.project-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:20px;
+  padding:20px;
+}
+
+.project-card{
+  border:2px solid #000;
+  border-radius:12px;
+  padding:10px;
+  transition:0.3s;
+}
+
+.project-card:hover{
+  box-shadow:0 0 20px rgba(0,0,0,0.2);
+}
+
+.project-card img{
+  width:100%;
+  border-radius:10px;
+}
+
+.quote{
+  font-style:italic;
+  text-align:center;
+  margin:40px;
+}
+
+footer{
+  background:#000;
+  color:#fff;
+  text-align:center;
+  padding:20px;
+}
+</style>
+</head>
+
+<body>
+<header>
+<nav>
+<h1>Ryan Koome</h1>
+<div>
+<a href="#about">About</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+
+<section class="hero">
+<h2>High Couture • Style • Power</h2>
+<p>Where fashion meets code and ambition becomes art.</p>
+
+<img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b" 
+     alt="High couture runway model" 
+     class="hero-image" />
+
+<br />
+<a class="btn" href="#projects">Enter The Collection</a>
+</section>
+</header>
+
+<main>
+
+<section id="about">
+<h2>About Me</h2>
+<p>
+I design digital experiences the same way couture is designed: with confidence, detail and attitude.
+Business minded. Creative driven. Luxury inspired.
+</p>
+</section>
+
+<div class="quote">
+“Fashion is not only clothes – it is identity, story and courage.”
+</div>
+
+<section id="projects">
+<h2>Runway Projects</h2>
+
+<div class="project-grid">
+
+<div class="project-card">
+<img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f" alt="Black model couture">
+<h3>Midnight Tailoring</h3>
+<p>Editorial concept celebrating Black excellence in high fashion tailoring.</p>
+</div>
+
+<div class="project-card">
+<img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e" alt="White model luxury">
+<h3>Silver Line</h3>
+<p>European minimal couture with modern elegance and structure.</p>
+</div>
+
+<div class="project-card">
+<img src="https://images.unsplash.com/photo-1509631179647-0177331693ae" alt="Diverse fashion">
+<h3>Unity Collection</h3>
+<p>Black and white cultures blended into one runway story.</p>
+</div>
+
+<div class="project-card">
+<img src="https://images.unsplash.com/photo-1495121605193-b116b5b9c5fe" alt="street couture">
+<h3>Street Royalty</h3>
+<p>Luxury streetwear inspired by urban kings and queens.</p>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2>Why People Stay</h2>
+<ul>
+<li>Real emotion in visuals</li>
+<li>Diversity and representation</li>
+<li>Luxury feeling with simplicity</li>
+<li>Clear confident message</li>
+</ul>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>Let’s build a brand that feels like a runway.</p>
+<p><strong>ryankoome09@gmail.com</strong></p>
+<a class="btn">Start Collaboration</a>
+</section>
+
+</main>
+
+<footer>
+© 2024 Ryan Koome • Couture Mindset
+</footer>
+</body>
+</html>
